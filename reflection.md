@@ -22,4 +22,12 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
+ 
+ I learned how to better read text files, convert them to json, and modify them through this assignment. You need to make sure to import the json library, and StringIO. After these imports are completed, you can read through the file line by line using the functions in the packaging library we imported. 
 
+ Another concept this assignment reinforced for me was the idea of a session state variable. Session state variables remain constant even if the function is run multiple times, contrasting non-session state variables that change as the function is run again and again.
+
+
+This assignment also helped me learn more about input widgets in streamlit. I need to define a variable, then use the proper streamlit function (e.g. st.file_uploader()) to input whatever is needed. 
+
+In the future I want to learn more about json file reading using AI-generated prompts. 
