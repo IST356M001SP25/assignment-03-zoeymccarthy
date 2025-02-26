@@ -27,7 +27,8 @@ Examples:
 
  Another concept this assignment reinforced for me was the idea of a session state variable. Session state variables remain constant even if the function is run multiple times, contrasting non-session state variables that change as the function is run again and again.
 
-
 This assignment also helped me learn more about input widgets in streamlit. I need to define a variable, then use the proper streamlit function (e.g. st.file_uploader()) to input whatever is needed. 
 
 In the future I want to learn more about json file reading using AI-generated prompts. 
+
+I also had an issue with importing the functions from packaging. The compiler would tell me that the functions were unavailable, but they were imported correctly. Eventually I got them to import correctly and run correctly in streamlit, though the compiler still was telling me that the functions were unavailable.

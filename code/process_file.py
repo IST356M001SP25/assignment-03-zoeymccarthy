@@ -15,6 +15,7 @@ st.title("Process a File of Packages")
 
 #file uploader
 file = st.file_uploader("Upload package file:")
+
 if file:
     filename = file.name
     json_filename = filename.replace(".txt",".json")
