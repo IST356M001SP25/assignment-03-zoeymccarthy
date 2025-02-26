@@ -17,6 +17,11 @@ st.title('Package Data Input')
 unparsedData = st.text_input('Enter one string of package data:')
 if unparsedData:
     parsedData = packaging.parse_packaging(unparsedData)
-    st.write('Package info:', parsedData)
+    unit = packaging.get_unit(parsedData)
+    st.write('Package info:', parsedData) #list of dictionaries displayed
+    for item in parsedData:
+        name = list(item.keys())[0]
+        size = list(item.values())[0]
+        st.info(f"{name} --> {size}")
     packageSize = packaging.calc_total_units(parsedData)
     st.write('Total package size:', packageSize)
